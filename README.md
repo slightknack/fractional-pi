@@ -5,7 +5,7 @@ Calculate fractional approximations of pi from continued fractions.
 Clone this repo, run the script. You know the deal:
 
 ```
-$ git clone https://github.com/slightknack/pi
+$ git clone https://github.com/slightknack/fractional-pi
 $ cd pi
 $ python3  pi.py
 ```
