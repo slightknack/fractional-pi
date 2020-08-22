@@ -6,7 +6,7 @@ Clone this repo, run the script. You know the deal:
 
 ```
 $ git clone https://github.com/slightknack/fractional-pi
-$ python3  fractional-pi/pi.py
+$ python3 fractional-pi/pi.py
 ```
 
 It'll print out the indexes of some accurate approximations, 
