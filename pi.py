@@ -12,11 +12,11 @@ for index, digit in enumerate(digits):
 def cr(l, iter):
     num_tape = [1, l[0]]
     den_tape = [0, 1]
-    for digit in l[1:iter]:
+    for (index, digit) in enumerate(l[1:iter]):
         num_tape.append(digit * num_tape[-1] + num_tape[-2])
         den_tape.append(digit * den_tape[-1] + den_tape[-2])
         num_tape.pop(0)
-        den_tape.pop(0)        
+        den_tape.pop(0)
         print("\r", (index + 2) / iter * 100, "%", " " * 16, end="")    
     print(f"\n\napprox: {num_tape[-1]} / {den_tape[-1]}")
     
