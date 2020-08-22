@@ -6,13 +6,12 @@ Clone this repo, run the script. You know the deal:
 
 ```
 $ git clone https://github.com/slightknack/fractional-pi
-$ cd pi
-$ python3  pi.py
+$ python3  fractional-pi/pi.py
 ```
 
 It'll print out the indexes of some accurate approximations, 
 then prompt you to enter one.
-Try something like `2` to get `22 / 7`, or `4` for the Milü approximation.
+Try something like `2` to get `22 / 7`, or `4` for the Milü approximation of `355 / 115`.
 
 ## Learn More
 Check out this [blog post by Atrix256, "Irrational Numbers"](https://blog.demofox.org/2020/07/26/irrational-numbers/).
